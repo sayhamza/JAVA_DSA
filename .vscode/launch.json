@@ -1,0 +1,177 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "LinkedList",
+            "request": "launch",
+            "mainClass": "LinkedList",
+            "projectName": "Java_da8933a"
+        },
+        {
+            "type": "java",
+            "name": "CreateNode",
+            "request": "launch",
+            "mainClass": "CreateNode",
+            "projectName": "Java_da8933a"
+        },
+        {
+            "type": "java",
+            "name": "QuickSort",
+            "request": "launch",
+            "mainClass": "DivideAndConquer.QuickSort",
+            "projectName": "Java_da8933a"
+        },
+        {
+            "type": "java",
+            "name": "nQueen",
+            "request": "launch",
+            "mainClass": "Backtracking.nQueen",
+            "projectName": "Java_da8933a"
+        },
+        {
+            "type": "java",
+            "name": "BTonArray",
+            "request": "launch",
+            "mainClass": "Backtracking.BTonArray",
+            "projectName": "Java_da8933a"
+        },
+        {
+            "type": "java",
+            "name": "MergeSort",
+            "request": "launch",
+            "mainClass": "DivideAndConquer.MergeSort",
+            "projectName": "Java_da8933a"
+        },
+        {
+            "type": "java",
+            "name": "TilingProblem",
+            "request": "launch",
+            "mainClass": "Recursion.TilingProblem",
+            "projectName": "Java_da8933a"
+        },
+        {
+            "type": "java",
+            "name": "FriendPairProb",
+            "request": "launch",
+            "mainClass": "Recursion.FriendPairProb",
+            "projectName": "Java_da8933a"
+        },
+        {
+            "type": "java",
+            "name": "TimingProblem",
+            "request": "launch",
+            "mainClass": "Recursion.TimingProblem",
+            "projectName": "Java_da8933a"
+        },
+        {
+            "type": "java",
+            "name": "Palindrome",
+            "request": "launch",
+            "mainClass": "Strings.Palindrome",
+            "projectName": "Java_da8933a"
+        },
+        {
+            "type": "java",
+            "name": "SearchSortedMatrix",
+            "request": "launch",
+            "mainClass": "TwoDArray.SearchSortedMatrix",
+            "projectName": "Java_da8933a"
+        },
+        {
+            "type": "java",
+            "name": "CountingSort",
+            "request": "launch",
+            "mainClass": "CountingSort",
+            "projectName": "Java_da8933a"
+        },
+        {
+            "type": "java",
+            "name": "InsertionSort",
+            "request": "launch",
+            "mainClass": "InsertionSort",
+            "projectName": "Java_da8933a"
+        },
+        {
+            "type": "java",
+            "name": "Interfaces",
+            "request": "launch",
+            "mainClass": "Interfaces",
+            "projectName": "Java_da8933a"
+        },
+        {
+            "type": "java",
+            "name": "Inheritance",
+            "request": "launch",
+            "mainClass": "Inheritance",
+            "projectName": "Java_da8933a"
+        },
+        {
+            "type": "java",
+            "name": "Abstraction",
+            "request": "launch",
+            "mainClass": "Abstraction",
+            "projectName": "Java_da8933a"
+        },
+        {
+            "type": "java",
+            "name": "ProfitStocks",
+            "request": "launch",
+            "mainClass": "Arrays.ProfitStocks",
+            "projectName": "Java_da8933a"
+        },
+        {
+            "type": "java",
+            "name": "TrappingRainwater",
+            "request": "launch",
+            "mainClass": "Arrays.TrappingRainwater",
+            "projectName": "Java_da8933a"
+        },
+        {
+            "type": "java",
+            "name": "LinearSearch",
+            "request": "launch",
+            "mainClass": "Arrays.LinearSearch",
+            "projectName": "Java_da8933a"
+        },
+        {
+            "type": "java",
+            "name": "BinaryToDecimal",
+            "request": "launch",
+            "mainClass": "Others.BinaryToDecimal",
+            "projectName": "Java_da8933a"
+        },
+        {
+            "type": "java",
+            "name": "SelectionSort",
+            "request": "launch",
+            "mainClass": "SelectionSort",
+            "projectName": "Java_da8933a"
+        },
+        {
+            "type": "java",
+            "name": "BinarySearch",
+            "request": "launch",
+            "mainClass": "Arrays.BinarySearch",
+            "projectName": "Java_da8933a"
+        },
+        {
+            "type": "java",
+            "name": "BubbleSort",
+            "request": "launch",
+            "mainClass": "BubbleSort",
+            "projectName": "Java_da8933a"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug",
+            "program": "${workspaceFolder}/<executable file>",
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
