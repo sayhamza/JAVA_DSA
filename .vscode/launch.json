@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ReverseStack",
+            "request": "launch",
+            "mainClass": "Stack.ReverseStack",
+            "projectName": "Java_da8933a"
+        },
+        {
+            "type": "java",
+            "name": "PushAtBottom",
+            "request": "launch",
+            "mainClass": "Stack.PushAtBottom",
+            "projectName": "Java_da8933a"
+        },
+        {
+            "type": "java",
+            "name": "StackIMP",
+            "request": "launch",
+            "mainClass": "Stack.StackIMP",
+            "projectName": "Java_da8933a"
+        },
+        {
+            "type": "java",
+            "name": "StackLL",
+            "request": "launch",
+            "mainClass": "Stack.StackLL",
+            "projectName": "Java_da8933a"
+        },
+        {
+            "type": "java",
+            "name": "StackB",
+            "request": "launch",
+            "mainClass": "Stack.StackB",
+            "projectName": "Java_da8933a"
+        },
+        {
+            "type": "java",
             "name": "LinkedList",
             "request": "launch",
             "mainClass": "LinkedList",
