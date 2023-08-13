@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MaxAreaHistgrm",
+            "request": "launch",
+            "mainClass": "Stack.MaxAreaHistgrm",
+            "projectName": "Java_da8933a"
+        },
+        {
+            "type": "java",
+            "name": "NxtGrtElmnt",
+            "request": "launch",
+            "mainClass": "Stack.NxtGrtElmnt",
+            "projectName": "Java_da8933a"
+        },
+        {
+            "type": "java",
             "name": "StockSpan",
             "request": "launch",
             "mainClass": "Stack.StockSpan",
