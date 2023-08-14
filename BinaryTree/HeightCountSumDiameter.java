@@ -1,6 +1,6 @@
 package BinaryTree;
 
-public class HeightCountSum {
+public class HeightCountSumDiameter {
 
     static class Node{
         int data;
@@ -14,7 +14,6 @@ public class HeightCountSum {
         }
     }
     //Tree Height
-
     public static int height(Node root){
         if (root==null) {
            return 0; 
@@ -44,13 +43,51 @@ public class HeightCountSum {
         int rs=sum(root.right);
         return ls+rs+root.data;
     }
+
+    //Diameter of Nodes
+    public static int diameter2(Node root){ //O(n^2)
+        if (root==null) {
+            return 0;
+        }
+        int ld=diameter2(root.left);
+        int lh=height(root.left);
+        int rd=diameter2(root.right);
+        int rh=height(root.right);
+
+        int selfdiam=lh+rh+1;
+
+        return Math.max(selfdiam, Math.max(ld, rd));
+    }
+    static class Info{
+        int diam;
+        int ht;
+
+        public Info(int diam,int ht){
+            this.diam=diam;
+            this.ht=ht;
+        }
+    }
+
+    public static Info diameter(Node root){ //O(n)
+         if (root==null) {
+            return new Info(0,0);
+        }
+        Info li=diameter(root.left);
+        Info ri=diameter(root.right);
+
+        int diam= Math.max(Math.max(li.diam, ri.diam),li.ht+ri.ht+1);
+        int ht= Math.max(li.ht, ri.ht)+1;
+
+        return new Info(diam, ht);
+    }
+        
     public static void main(String[] args) {
         
         Node root = new Node(1);
         root.left=new Node(2);
         root.right=new Node(3);
         root.left.left=new Node(4);
-        root.left.right=new Node(5);
+        root.left.right=new Node(5); 
         root.right.left=new Node(6);
         root.right.right=new Node(7);
 
@@ -60,7 +97,9 @@ public class HeightCountSum {
 
         System.out.println(sum(root));
 
+        System.out.println(diameter2(root));
 
+        System.out.println(diameter(root).diam);
     }
     
 }
