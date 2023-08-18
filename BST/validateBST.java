@@ -26,6 +26,16 @@ public class validateBST {
          return root;
     }
 
+    public static void inorder(Node root) {
+        if(root == null) {
+            return;
+        }
+
+        inorder(root.left);
+        System.out.print(root.data+" ");
+        inorder(root.right);
+    }
+
     public boolean isValidBST(Node root) {
         return isValidUtil(root, null, null);
     }
@@ -52,7 +62,13 @@ public class validateBST {
         for(int i=0; i<values.length; i++) {
             root = insert(root, values[i]);
         }
-
+        // inorder(root);
         // printRoot2Leaf(root, new ArrayList<>());
+        // if (isValidBST(root,null,null)) {
+        //     System.out.println("Is Valid");
+        // }
+        // else{
+        //     System.out.println("Not valid");
+        // }
     }
 }

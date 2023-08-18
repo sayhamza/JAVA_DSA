@@ -25,6 +25,7 @@ public class BST {
 
          return root;
     }
+    //Inorder
 
     public static void inorder(Node root) {
         if(root == null) {
@@ -35,7 +36,8 @@ public class BST {
         System.out.print(root.data+" ");
         inorder(root.right);
     }
-
+    //Delete 
+    
     public static Node delete(Node root, int val) {
         if(root == null) {
             return null;
