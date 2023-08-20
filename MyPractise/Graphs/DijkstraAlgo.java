@@ -21,7 +21,12 @@ public class DijkstraAlgo {
 
         @Override
         public int compareTo(Pair p2){
+            
+            //Ascending
             return this.dist - p2.dist;
+
+            //Desending
+            //return p2.dist - this.dist; 
         }
     }
     public static void createGraph(ArrayList<Edge>[] graph){
@@ -44,6 +49,7 @@ public class DijkstraAlgo {
     }
 
     public static void djikstraAlgo(ArrayList<Edge>[] graph, int src){ // O(V + Elog(V))
+
         int dist[] = new int[graph.length];
         boolean visited[] = new boolean[graph.length];
         for(int i = 0; i < graph.length; i++){

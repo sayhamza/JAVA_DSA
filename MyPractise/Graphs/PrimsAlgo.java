@@ -1,17 +1,19 @@
+//MST set
+
 package Graphs;
 
 import java.util.ArrayList;
 import java.util.PriorityQueue;
 
 public class PrimsAlgo {
-    // public static class Edge{
-    //     int src, dest, wt;
-    //     Edge(int src, int dest, int wt){
-    //         this.src = src;
-    //         this.dest = dest;
-    //         this.wt = wt;
-    //     }
-    // }
+    public static class Edge{
+        int src, dest, wt;
+        Edge(int src, int dest, int wt){
+            this.src = src;
+            this.dest = dest;
+            this.wt = wt;
+        }
+    }
     public static class Edge implements Comparable<Edge>{
         int src, dest, cost;
         Edge(int src, int dest, int cost){
