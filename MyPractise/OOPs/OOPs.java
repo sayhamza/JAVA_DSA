@@ -16,10 +16,10 @@ class Pen {
     private int tip;
 
     // constructor
-    // Pen(){
-    //     this.color = "Red";
-    //     this.tip = 1;
-    // }
+    Pen(){
+        this.color = "Red";
+        this.tip = 1;
+    }
     Pen(String color, int tip){
         this.color = color;
         this.tip = tip;
