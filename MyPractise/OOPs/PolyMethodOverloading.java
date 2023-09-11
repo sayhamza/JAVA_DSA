@@ -1,7 +1,7 @@
 // Java program to demonstrate the working of method
 // overloading by changing the number of parameters
-
-public class MethodOverloading {
+package placement.OOPs;
+public class PolyMethodOverloading {
 	
 	// 1 parameter
 	void show(int num1)
@@ -18,12 +18,13 @@ public class MethodOverloading {
 
 	public static void main(String[] args)
 	{
-		MethodOverloading obj = new MethodOverloading();
+		PolyMethodOverloading obj = new PolyMethodOverloading();
 	
 		// 1st show function
 		obj.show(3);
 	
 		// 2nd show function
+		obj.show(4);
 		obj.show(4, 5);
 	}
 }

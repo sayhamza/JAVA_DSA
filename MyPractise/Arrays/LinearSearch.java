@@ -1,6 +1,6 @@
 //TC O(n)
 
-package Arrays;
+package MyPractise.Arrays;
 
 public class LinearSearch {
     public static int lsearch(int numbers[], int key) {
@@ -17,7 +17,7 @@ public class LinearSearch {
 
     public static void main(String[] args) {
         int numbers[] = { 1, 4, 3, 2, 5, 6 };
-        int key = 89;
+        int key = 5;
         int index = lsearch(numbers, key);
         if (index == -1) {
             System.out.println("Key is Unavailable");

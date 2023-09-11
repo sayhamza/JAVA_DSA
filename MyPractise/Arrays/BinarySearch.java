@@ -1,5 +1,7 @@
 //TC O()
-package Arrays;
+package MyPractise.Arrays;
+
+import java.util.Scanner;
 
 public class BinarySearch {
     public static int bsearch(int num[], int key) {
@@ -22,8 +24,10 @@ public class BinarySearch {
     }
 
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
         int num[] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 };
-        int key = 8;
+        int key = sc.nextInt();
         int index = bsearch(num, key);
         if (index == -1) {
             System.out.println("Key unavailable");
