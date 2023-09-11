@@ -1,4 +1,4 @@
-package Arrays;
+package MyPractise.Arrays;
 
 public class TrappingRainwater {
     public static int trappedRW(int height[]) {
