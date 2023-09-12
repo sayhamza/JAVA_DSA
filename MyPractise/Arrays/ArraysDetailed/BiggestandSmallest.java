@@ -3,7 +3,7 @@ import java.util.*;
 
 public class BiggestandSmallest {
     public static void main(String[] args) {
-        int numbers[] = {2,4,6,8,10,12,16};
+        int numbers[] = {-1,4,6,8,10,12,16};
         int largest = Integer.MIN_VALUE;
         int smallest = Integer.MAX_VALUE;
 

@@ -1,22 +1,16 @@
-// package Strings;
-
-// public class Palindrome {
-//     public static boolean isPalindrome(String str){
-//         for (int i = 0; i < str.length()/2; i++) {
-//             int n= str.length();
-//             if (str.charAt(i)==str.charAt(n-1-i)) {
-//                 return true;
-//             }
-//             else {
-//                 return false;
-//             }
-//         }
-//         return false;
-
-//     }
-//     public static void main(String[] args) {
-//         String str="WRIGHT";
-//         System.out.println(isPalindrome(str));
-//     }
-    
-// }
+package MyPractise.Strings;
+public class Palindrome {
+    public static boolean isPalindrome(String str){
+        int left_idx = 0, right_idx = str.length()-1;
+        while(left_idx <= right_idx){
+            if(str.charAt(left_idx++) != str.charAt(right_idx--)){
+                return false;
+            }
+        }
+        return true;
+    }
+    public static void main(String[] args) {
+        String str = "racecar";
+        System.out.println(str + (isPalindrome(str) ? " is a ": " is not a ") + "palindrome");
+    }
+}
