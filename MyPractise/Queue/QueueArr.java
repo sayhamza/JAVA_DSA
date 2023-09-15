@@ -60,6 +60,7 @@ public class QueueArr {
         while (!q.isEmpty()) {
             System.out.println(q.peek());
             q.remove();
+            // System.out.println(q.peek());
             
         }
     }
