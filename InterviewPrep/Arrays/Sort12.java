@@ -4,7 +4,7 @@
 //"Dutch National Flag algorithm" or the "Three-Way Partitioning" algorithm.
 
 
-package InterviewPrep;
+package InterviewPrep.Arrays;
 
 public class Sort12 {
     public static void swap(int arr[],int i,int j)

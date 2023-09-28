@@ -1,5 +1,5 @@
 //Q) https://practice.geeksforgeeks.org/problems/kadanes-algorithm-1587115620/1?page=1&difficulty[]=0&difficulty[]=1&sortBy=submissions
-package InterviewPrep;
+package InterviewPrep.Arrays;
 
 public class KadanesAlgo {
     
