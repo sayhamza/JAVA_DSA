@@ -14,9 +14,6 @@ public class KthSmallestElement {
         System.out.println(ans);
         return arr[k-1];
         
-        
-
-
     } 
     public static void main(String[] args) {
         int n=6;
