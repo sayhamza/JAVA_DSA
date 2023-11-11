@@ -12,8 +12,7 @@ class Node {
 }
 
 class RotateLL {
-    Node rotate(Node head, 
-    nt k) {
+    Node rotate(Node head, int k) {
         if (k == 0) return head;
         Node current = head;
         int count = 1;
