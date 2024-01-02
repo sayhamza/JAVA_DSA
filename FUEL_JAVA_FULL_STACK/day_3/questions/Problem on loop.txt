@@ -1,0 +1,126 @@
+Problem on loop
+
+
+1) Write a program to print 1 to 10 using Scanner.
+
+2) Wite a program to print even or odd no using Scanner .
+
+3) wirte a program print 1-100 natual no using Scanner.
+
+4) wirte a program to print fibbonachi seres. 1-10 using Scanner
+
+5) write a program rever no 123 using Scanner .
+
+6) write a program to check 121 is amstrone no or not .
+
+7) write a program to check  given value is palindrome or not 1231 using Scanner . 
+
+8) wirte a program to find product of digit of given number 243 using scanner .
+
+9)print star pattern
+       * * * * *
+       * * * * *
+       * * * * *
+       * * * * *
+
+10)print star pattern
+      * * * *
+      * * *
+      * *
+      *
+11)print star pattern
+
+    * * * * *
+    *       *
+    *       *
+    *       * 
+    * * * * *
+12)print star patter
+       *
+      * *
+13)print this pattern
+
+    1 1 1 1
+    2 2 2 2
+    3 3 3 3
+    4 4 4 4
+
+14)pritn pattern
+
+   1 2 3 4
+   5 6 7 9
+
+15)print pattern
+
+    1  5   9
+    2  6  10
+    3  7  11
+    4  8  12
+
+16)print pattern
+   8
+   8  8 
+   8  8  8 
+   8  8  8  8
+
+17)print pattern
+
+  *
+    *
+       *
+         *
+
+18) print pattern
+
+     * * * * 
+      * * * 
+       * *
+        *
+
+19) print pattern
+
+     *
+     *  *
+     *  *  *
+     *  *   *  *
+
+20)print pattern
+   
+    *       *
+     *     *
+      *   *
+        *
+  
+21)print pattern
+     
+       *
+     *   *
+    *     *
+   *       *
+
+22)print pattern
+
+          * 
+       * 
+     *
+   *  
+
+
+23) print pattern 
+
+1
+0 1
+1 0 1
+0 1 0 1
+1 0 1 0 1
+
+24)
+
+*             *
+* *         * *
+* * *     * * *
+* * * * * * * *
+* * * * * * * *
+* * *     * * *
+* *         * *
+*             *

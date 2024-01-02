@@ -1,0 +1,5 @@
+What is meaning of system.out.println?
+It process system for output
+
+what is difference between Static instance and local vairable?
+Local- 
