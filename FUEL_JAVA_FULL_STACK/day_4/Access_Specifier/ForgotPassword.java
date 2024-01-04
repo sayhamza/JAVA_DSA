@@ -1,4 +1,4 @@
-package day_4.Access_Specifier.Private_now;
+
 import java.util.Scanner;
 
 public class ForgotPassword {
