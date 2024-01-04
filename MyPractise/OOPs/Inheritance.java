@@ -1,4 +1,4 @@
-package placement.OOPs;
+package MyPractise.OOPs;
 
 public class Inheritance {
     public static class Animals {
@@ -29,6 +29,10 @@ public class Inheritance {
         Fish shark = new Fish();
         shark.eat();
         shark.swims();
+
+        Fish tuna = new Fish();
+        tuna.eat();
+        tuna.swims();
         
     }
  

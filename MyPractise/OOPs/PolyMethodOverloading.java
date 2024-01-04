@@ -1,6 +1,6 @@
 // Java program to demonstrate the working of method
 // overloading by changing the number of parameters
-package placement.OOPs;
+package MyPractise.OOPs;
 public class PolyMethodOverloading {
 	
 	// 1 parameter

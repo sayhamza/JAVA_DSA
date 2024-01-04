@@ -1,4 +1,4 @@
-package placement.OOPs;
+package MyPractise.OOPs;
 
 public class Abstraction {
     public static void main(String[] args) {
