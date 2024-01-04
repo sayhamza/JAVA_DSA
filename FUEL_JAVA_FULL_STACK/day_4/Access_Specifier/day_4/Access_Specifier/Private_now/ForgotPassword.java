@@ -1,7 +1,8 @@
 package day_4.Access_Specifier.Private_now;
 import java.util.Scanner;
 
-public class Main {
+public class ForgotPassword {
+
     static class User {
         
         Scanner sc = new Scanner(System.in);
@@ -28,9 +29,7 @@ public class Main {
             String answer = sc.nextLine();
 
             if (answer.equals(securityAnswer)) {
-                System.out.println("Enter new password:");
-                this.password = sc.nextLine();
-                System.out.println("Password has been reset.");
+                System.out.println("Your Older password is " + this.password);
             } else {
                 System.out.println("Incorrect answer to security question.");
             }
@@ -40,6 +39,8 @@ public class Main {
     public static void main(String[] args) {
         User user = new User();
         user.setCredentials();
+        //To validate
+
         // If the user forgets their password:
         user.forgotPassword();
     }

@@ -1,6 +1,6 @@
 package day_8.StaticKeyword;
 
-public class MyClass {
+public class second {
     
 
         // Static variable
@@ -16,10 +16,12 @@ public class MyClass {
     
         public static void main(String[] args) {
             // Create an instance of MyClass
-            MyClass s1 = new MyClass();
+            second s1 = new second();
+            third c = new third();
     
             // Call the non-static method
             s1.myMethod();
+            c.dis();
         }
     }
 
