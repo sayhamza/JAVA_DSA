@@ -6,32 +6,24 @@
 
 public class Abstraction {
     public static void main(String[] args) {
-       Car car = new Car();
-       car.start();
+       Honda1 car = new Honda1();
+       car.run();
        
-       Bike bike = new Bike();
-       bike.start();
+       
      }
 }
 
-
-    abstract class Vehicle {
-    abstract void start();
+    abstract class Honda {
+    abstract void run();
     }
 
   
-     class Car extends Vehicle {
+     class Honda1 extends Honda {
     
-        void start(){
-            System.out.println("Car starts");
+        void run(){
+            System.out.println("Running Safely");
         }
     }
 
-    class Bike extends Vehicle {
     
-        void start(){
-            System.out.println("Bike starts");
-        }
-    }
-
 
