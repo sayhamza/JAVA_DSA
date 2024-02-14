@@ -1,4 +1,4 @@
-package day_8.OOPs.Inheritance;
+package FUEL_JAVA_FULL_STACK_day_8.OOPs.Inheritance;
 
 
  class Vehicle {
