@@ -1,6 +1,6 @@
 //  if, if-else, else-if, switch.
 
-package conditions;
+package Day_2.conditions;
 
 public class condition {
 

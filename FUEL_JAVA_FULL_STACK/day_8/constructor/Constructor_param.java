@@ -1,4 +1,4 @@
-package day_8.constructor;
+package Day_8.constructor;
 
 public  class Constructor_param {
     

@@ -1,4 +1,4 @@
-package day_8.OOPs.Inheritance;
+package Day_8.OOPs.Inheritance;
 
 class Shape {
     void getArea() {

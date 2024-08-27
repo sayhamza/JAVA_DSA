@@ -1,4 +1,4 @@
-package questions;
+package Day_2.questions;
 
 public class twelve {
     

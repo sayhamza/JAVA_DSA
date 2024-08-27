@@ -1,3 +1,4 @@
+package Day_8.OOPs.Inheritance;
 public class Hierarchical {
     public static void main(String[] args) {
         E e1 = new E();

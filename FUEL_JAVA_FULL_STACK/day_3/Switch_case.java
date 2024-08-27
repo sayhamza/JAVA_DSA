@@ -1,3 +1,4 @@
+package Day_3;
 public class Switch_case {
     public static void main(String[] args) {
         int number = 20;

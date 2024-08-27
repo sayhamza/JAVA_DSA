@@ -1,3 +1,4 @@
+package Day_3;
 public class Switch_case1 {
     public static void main(String[] args) {
                 // Specifying month number

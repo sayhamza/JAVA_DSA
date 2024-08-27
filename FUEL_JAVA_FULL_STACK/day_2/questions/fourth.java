@@ -1,4 +1,4 @@
-package questions;
+package Day_2.questions;
 import java.util.Scanner;
 public class fourth {
     public static void main(String[] args) {

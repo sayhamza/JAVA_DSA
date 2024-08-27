@@ -1,4 +1,4 @@
-package day_8.StaticKeyword;
+package Day_8.StaticKeyword;
 
 public class second {
     

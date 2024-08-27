@@ -1,8 +1,7 @@
-package day_8.constructor;
+package Day_8.constructor;
 
 import COMPLETECODE.TillLesson11.L1VariablesandDataTypes.input;
-
-import day_8.constructor.Constructor_param.Student;
+import Day_8.constructor.Constructor_param.Student;
 
 public class ConstructorOverloading {
     
