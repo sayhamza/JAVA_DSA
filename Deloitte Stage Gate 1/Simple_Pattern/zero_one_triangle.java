@@ -1,4 +1,4 @@
-package Pattern_1;
+package Simple_Pattern;
 
 public class zero_one_triangle {
     public static void main(String[] args) {

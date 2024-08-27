@@ -1,4 +1,4 @@
-package Pattern_1;
+package Simple_Pattern;
 
 public class hollowrectangle {
     public static void main(String[] args) {

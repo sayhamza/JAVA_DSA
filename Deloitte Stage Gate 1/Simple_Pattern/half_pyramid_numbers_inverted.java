@@ -1,4 +1,4 @@
-package Pattern_1;
+package Simple_Pattern;
 
 public class half_pyramid_numbers_inverted {
     public static void main(String[] args) {
